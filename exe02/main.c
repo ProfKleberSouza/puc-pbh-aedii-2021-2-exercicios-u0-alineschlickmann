@@ -1,8 +1,14 @@
 #include <stdio.h>
 
 int main() {
-   int n1, n2;
-   scanf("%i %i", &n1, &n2);
-   printf("SOMA = %i\n", n1+n2);
+   int distancia, tempo, vel_media, rendimento_medio, litros;
+   
+      scanf("%d %d %d", &tempo, &vel_media, &rendimento_medio);
+
+    distancia = tempo * vel_media;
+    litros = distancia / rendimento_medio;
+
+   printf("R = %i\nV = %i\nT = %i\nD = %i\nL = %i", rendimento_medio, vel_media, tempo, distancia, litros);
+
    return 0;
 }
