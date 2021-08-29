@@ -8,7 +8,7 @@ int main() {
     distancia = tempo * vel_media;
     litros = distancia / rendimento_medio;
 
-   printf("R = %i\nV = %i\nT = %i\nD = %i\nL = %i", rendimento_medio, vel_media, tempo, distancia, litros);
+   printf("R = %i\nV = %i\nT = %i\nD = %i\nL = %i\n", rendimento_medio, vel_media, tempo, distancia, litros);
 
    return 0;
 }
