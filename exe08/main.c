@@ -2,10 +2,8 @@
 
 
 int main() {
-   int i, qnt_num, num;
-     scanf("%i", &qnt_num);
-
-   for(i=0; i<qnt_num; i++){
+   int num=1;
+        while(num != 0){
       scanf("%i", &num);
 
       if(num < 0){
@@ -15,7 +13,7 @@ int main() {
        printf("POSITIVO\n");              
             } 
           }
-
+       
 
     }
     return 0;
